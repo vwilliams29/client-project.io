@@ -75,3 +75,10 @@ hr{
   text-align: center;
   margin: 50px;
 }
+.input-group{
+  width: 14rem;
+  margin: 10px;
+}
+body{
+  background-color: #966B9D;
+}

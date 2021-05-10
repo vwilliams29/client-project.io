@@ -25,9 +25,26 @@
           <!-- Content here -->
 
     <div class="sidenav" id="font">
-      <a href=""><img src="img/logo.png" alt="logo" class="logo" ></a>
+      <a href="#"><img src="img/logo.png" alt="logo" class="logo" ></a>
+      <br>
+      <div class="input-group">
+  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+    aria-describedby="search-addon" />
+  <button type="button" class="btn btn-outline-primary">search</button>
+</div>
       <a href="#home">Home</a>
-      <a href="#shop">Shop</a>
+      <div class="nav-item dropdown">
+      <a href="#shop" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#shop">Guitars</a></li>
+            <li><a class="dropdown-item" href="#shop">Keyboards</a></li>
+            <li><a class="dropdown-item" href="#shop">Drums</a></li>
+            <li><a class="dropdown-item" href="#shop">Basses</a></li>
+            <li><a class="dropdown-item" href="#shop">Recording</a></li>
+            <li><a class="dropdown-item" href="#shop">Strings</a></li>
+          </ul>
+          </ul>
+        </div>
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
     </div>
@@ -117,7 +134,7 @@
       </div>
       <div class="col-3" id="shop">
         <div class="card" style="width: 16rem;">
-          <img src="img/card-guitar.jpg" class="card-img-top" alt="guitar2">
+          <img src="img/card-guitar.jpg" class="guitar2 card-img-top" alt="guitar2">
           <div class="card-body">
               <h2 class="card-text text-center" id="font">Guitars</h2>
           </div>
@@ -133,13 +150,15 @@
       </div>
       <div class="col-3">
         <div class="card" style="width: 16rem;">
-          <img src="img/drums.jpg" class="card-img-top" alt="drums">
+          <img src="img/drums2.jpg" class="card-img-top" alt="drums">
           <div class="card-body">
               <h2 class="card-text text-center" id="font">Drums</h2>
           </div>
         </div>
       </div>
     </div>
+
+    <br>
 
     <div class="row ">
       <div class="col-3">
@@ -184,6 +203,7 @@
 
     <div class="row">
       <div class="col-5"></div>
+
 
     <div class="col-7" id="contact">
         <div class="card card3" style="width: 35rem; height: 25rem;">
