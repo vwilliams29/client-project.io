@@ -1,0 +1,77 @@
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F2B880;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.logo {
+  width: 80%;
+}
+
+.piano2 {
+  width: 100%;
+  height: 50%;
+}
+.card {
+  background-color: #E7CFBC;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.card1{
+  background-color:#f2b880;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.text{
+  margin: 50px;
+}
+.card-img-top{
+  width:100%;
+  height:100%;
+}
+hr{
+  color: #c98686;
+  height: 60px;
+}
+.font{
+  font-family: 'Goblin One', cursive;
+}
+.card-left{
+  width:20rem;
+  height:20rem;
+}
+.text2{
+  text-align: center;
+  margin: 50px;
+}
